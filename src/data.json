@@ -1,0 +1,30 @@
+[
+    {
+    "id": 1,
+    "name": "namejson",
+    "email": "emailjson",
+    "profileImage": "https://images7.alphacoders.com/988/988814.jpg",
+    "postContent": "postcontentjson",
+    "img": "https://images7.alphacoders.com/500/500493.jpg",
+    "sharingContent" : "",
+    "commentContent": [""],
+    "likeNum": 0,
+    "commentNum": 0,
+    "shareNum":0
+
+},
+{
+    "id": 2,
+    "name": "name2",
+    "email": "email@2",
+    "profileImage": "https://static.zerochan.net/Uzumaki.Naruto.full.1238741.jpg",
+    "postContent": "postcontent2",
+    "img": "https://wallpapercave.com/wp/wp4033148.jpg",
+    "sharingContent" : "",
+    "commentContent": [""],
+    "likeNum":0,
+    "commentNum": 0,
+    "shareNum":0
+
+}
+]

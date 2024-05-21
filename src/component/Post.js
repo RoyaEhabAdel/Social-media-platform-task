@@ -53,23 +53,13 @@ function Post(){
 
     function handleComment()
         {
-            if(showComment === true){
-                setShowComment(false)
-            }else{
-                setShowComment(true)
-                
-            }
+            setShowComment(showComment => !showComment)
         }
-        function handleShare() {
-            if(showSharing === true){
-                setShowSharing(false)
-            }else{
-                setShowSharing(true)
-            }
-            
-            
+    function handleShare() {
+            setShowSharing(showSharing => !showSharing)
         }
-        function incrementShare(id){
+
+    function incrementShare(id){
             const updatedPosts = posts.map(post => {
                 return post.id === id ?  {
                   ...post,
@@ -80,7 +70,7 @@ function Post(){
             setPosts(updatedPosts)
             setSharingPostID(null)
         }
-        function incrementComment(id){
+    function incrementComment(id){
             
             const updatedPosts = posts.map(post => {
                 return post.id === id ?  {
